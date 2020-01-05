@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: maroon;
+  background: url('images/background.png') no-repeat center center fixed;
   overflow-x: hidden;
 }
 .navbar {
@@ -41,7 +41,7 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 7px;
     color: gold;
     padding-left: 20px;
     width: 100%;
@@ -66,9 +66,15 @@ body {
 .col-md-4 #God-col {
   background-color: white;
 }
+#God-col {
+  border-radius: 7px;
+  padding-top: -35px;
+}
 #God-col h2 {
   background-color: gold;
   width: 100%;
+  border-radius: 7px;
+}
 }
 #God-col span {
   background-color: gold;
@@ -89,13 +95,15 @@ body {
   width: 250px;
   border-color: black; 
 }
-
+#textbox #button {
+  border-radius: 7px;;
+}
 @media (min-width: 1200px) {
     .jumbotron {
     background: url('images/jumbo_1200.jpg') no-repeat;
     height: 675px;
     box-shadow: 0 0 50px ;
-    border: 2px solid #3F0C1F;
+    border: 1px solid;
     padding-top: 0;
   }
 }

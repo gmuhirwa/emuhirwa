@@ -9,6 +9,7 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="searchbar.css">
 	<link href="https://fonts.googleapis.com/css?family=oxygen:400,300,700" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     
@@ -100,11 +101,13 @@
 
 	<div class="col-md-4 col-sm-6 col-xs-12"  align="center">
 		
-		<p> 
-		<form name="input" action="html_form_action.asp" method="get">
-        <input type="text" name="user">
-        <input type="submit" value="Go">
-        </form></p>
+	<div id="searchbar">
+    <form method="post">
+    <input type="text" class="textbox" placeholder="Search">
+    <input title="Search" value="" type="submit" class="button">
+    </form>
+    </div>
+    
         <div id="member-col">
 		
         	<span> Member Area</span> </div>
