@@ -37,13 +37,15 @@ body {
 }
 #ourmanna-verse {
     padding: 2px;
-    margin: 0px;
+    margin: 34px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: Turquoise;
+    background-color: black;
     border-radius: 5px;
+    color: gold;
     padding-left: 20px;
     width: 100%;
+    opacity: .7;
 }
 #mannaverse {
     font-size: 14px;
@@ -61,15 +63,20 @@ body {
 #mannaverse-version {
     color: #ddd;
 }
+.col-md-4 #God-col {
+  background-color: white;
+}
+#God-col h2 {
+  background-color: gold;
+  width: 100%;
+}
 #God-col span {
   background-color: gold;
   color: black;
-  width: 250px;
-  border-color: black;
 }
-/*#God-col span p {
-  color: black;
-}*/
+#God-col:hover {
+  box-shadow: 0 1px 5px 1px maroon;
+}
 #member-col {
   background-color: gold;
   color: black;
