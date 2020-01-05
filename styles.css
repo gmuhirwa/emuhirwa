@@ -35,3 +35,34 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+#ourmanna-verse {
+    padding: 10px;
+    margin:10px;
+    background-color: Turquoise;
+    border-radius: 5px;
+}
+#mannaverse {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#mannaverse-reference:before {
+    content: "- ";
+}
+#mannaverse-reference {
+    text-align: right;
+    font-size: 12px;
+}
+#mannaverse-version {
+    color: #ddd;
+}
+
+@media (min-width: 1200px) {
+    .jumbotron {
+    background: url('images/jumbo_1200.jpg') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px ;
+    border: 2px solid #3F0C1F;
+    padding-top: 0;
+  }
+}
