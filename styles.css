@@ -61,6 +61,27 @@ body {
 #mannaverse-version {
     color: #ddd;
 }
+#God-col span {
+  background-color: gold;
+  color: black;
+  width: 250px;
+  border-color: black;
+}
+/*#God-col span p {
+  color: black;
+}*/
+#member-col {
+  background-color: gold;
+  color: black;
+  width: 250px;
+  border-color: black; 
+}
+#account-col {
+  background-color: gold;
+  color: black;
+  width: 250px;
+  border-color: black; 
+}
 
 @media (min-width: 1200px) {
     .jumbotron {
