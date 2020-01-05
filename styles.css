@@ -185,6 +185,15 @@ section #how:hover, section #events:hover, section #children:hover {
  float: center;
  opacity: .7;
 }
+.my-container {
+      border: 1px solid green;
+    }
+    .my-row {
+      border: 3px solid red;
+    }
+    .my-col {
+      border: 3px solid blue;
+    }
 @media (min-width: 1200px) {
     .jumbotron {
     background: url('images/jumbo_1200.jpg') no-repeat;
