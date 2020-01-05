@@ -164,10 +164,11 @@ section #how:hover, section #events:hover, section #children:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 .row #africa span, .row #donation span, .row #feedback span {
+ 
  text-align: center;
  background-color: black;
- color: white;
  width: 32%;
+ color: white;
  font-weight: bold;
  font-size: 20px;
  float: center;
