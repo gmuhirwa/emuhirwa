@@ -1,7 +1,7 @@
 
 
 body {
-  background: url('images/background.png') no-repeat center center fixed;
+  background: url('images/background.png') no-repeat center fixed;
   overflow-x: hidden;
 }
 .navbar {
@@ -34,6 +34,23 @@ body {
 /*This is to remove the underlined feature*/
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+.nav a {
+  margin: 4px;  
+  background-color: turquoise;
+  border: 1px solid gold;
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+  top: 14px;
+  right: -242px;
+
+ }
+a:hover {
+ background-color: green;
+ transform: rotate(360deg);
+ transition: 5s ease;
+ border-radius: 100px;
 }
 #ourmanna-verse {
     padding: 2px;
@@ -186,7 +203,6 @@ section #how:hover, section #events:hover, section #children:hover {
  float: center;
  opacity: .7;
 }
-
 @media (min-width: 1200px) {
     .jumbotron {
     background: url('images/jumbo_1200.jpg') no-repeat;

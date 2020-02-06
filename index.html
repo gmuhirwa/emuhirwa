@@ -8,9 +8,10 @@
 	<title>Elsa Muhirwa - Scholarship Funds!</title>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="styles.css">
+	
 	<link href="https://fonts.googleapis.com/css?family=oxygen:400,300,700" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     
     </head>
 <body>
@@ -34,44 +35,26 @@
         </div>
 
 		<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      </div>
+        </button>
+        </div>
 
       <div id="collapsable-nav" class="collapse navbar-collapse">
-      	<ul id="nav-list" class="nav navbar-nav navbar-right">
-      		
-            <li class="visible-xs active">
-      			<a href="index.html">
-      			<span class="glyphicon glyphicon-home"></span>
-      			<br class="hidden-xs"> Home</a>
-            </li>
+      	<ul class="nav nav-pills">
+        <li> <a href="#">Regular Link</a></li>
+        <li> <a href="#">Regular Link</a></li>
+        <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        Dropdown <span class="caret"></span></a>
+    
+        <ul class="dropdown-menu">
+        <li> <a href ="#">Option One</a>
+        <li> <a href ="#">Option Two</a>
+    </ul>
+    </li>
+    <li> <a href="#">Regular Link</a></li>
+    </ul>
 
-      		<li>
-      			<a href="menu-categories.html">
-      			<span class="glyphicon glyphicon-cutlery"></span>
-      			<br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-                <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span>
-                <br class="hidden-xs"> About</a>
-            </li>
-            <li>
-                <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span>	
-                <br class="hidden-xs"> Contact us</a>
-            <li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:514-638-4467">
-              	<span>514-638-4467</span></a><div>* Praise The Lord!</div>
-            </li>
-        </ul><!-- #nav-list -->
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
         </div><!-- .collapse .navbar-collapse -->
